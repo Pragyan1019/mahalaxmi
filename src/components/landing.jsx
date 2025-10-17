@@ -21,7 +21,7 @@ const landing = () => {
         <p className='text-xl font-sans'>A community of lifelong learners</p>
         <div className='flex lg:gap-10 gap-5 justify-center items-center text-3xl mt-8   font-serif'>
             <button onMouseEnter={()=> setcolorbutton(true)} onMouseLeave={()=> setcolorbutton(false)} 
-            onClick={()=> scrollToSection('contact')} className={` lg:py-5 py-2 lg:px-7 px-4 roundedlg:rounded-3xl ${ colorbutton ? 'bg-[#371b26]' : 'bg-[#1b2637]'
+            onClick={()=> scrollToSection('contact')} className={` lg:py-5 py-2 lg:px-7 px-4 rounded lg:rounded-3xl ${ colorbutton ? 'bg-[#371b26]' : 'bg-[#1b2637]'
             } hover:cursor-pointer transition-all ease-out`}>Join Us</button>
             <button onMouseEnter={()=> setcolorbutton1(true)} onMouseLeave={()=> setcolorbutton1(false)} onClick={()=> scrollToSection('about')} className={` lg:py-5 py-2 lg:px-7 px-4 rounded lg:rounded-3xl ${ colorbutton1 ? 'bg-[#1b2337]' : 'bg-[#372c1b]'
             } hover:cursor-pointer transition-all ease-out`}>About Us</button>
