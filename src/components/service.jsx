@@ -9,7 +9,7 @@ const Service = () => {
 gsap.fromTo('.t3',{y:20,opacity:0},{y:0,opacity:1,duration:0.7,scrollTrigger:{trigger:'.t3',start:'top 90%'}})
 gsap.fromTo('.t4',{y:-20,opacity:0},{y:0,opacity:1,duration:0.7,scrollTrigger:{trigger:'.t3',start:'top 90%'}})
 gsap.fromTo('.card3_text span',{x:200,opacity:0},{x:0,opacity:1,duration:1,stagger: { each: 0.1 },scrollTrigger:{trigger:'.card3_text',start:'top 90%'}})
-gsap.fromTo('.card4_text span',{x:-200,opacity:0},{x:0,opacity:1,duration:1,scrollTrigger:{trigger:'.card4_text',start:'top 90%'}})
+gsap.fromTo('.card4_text span',{x:-200,opacity:0},{x:0,opacity:1,duration:1,stagger: { each: 0.1 },scrollTrigger:{trigger:'.card4_text',start:'top 90%'}})
 
   },[])
   return (
