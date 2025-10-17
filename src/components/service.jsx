@@ -15,7 +15,7 @@ gsap.fromTo('.card4_text span',{x:-200,opacity:0},{x:0,opacity:1,duration:1,scro
   return (
     <div className='min-h-screen w-[85%] mx-auto flex flex-col items-center gap-2 pt-10 relative '>
         <div class="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
-<h1 className='font-serif text-4xl t3'>Programs &amp; Support </h1>
+<h1 className='font-serif text-4xl t3 text-center'>Programs &amp; Support </h1>
       <h2 className='font-sans t4'>
         <span className='font-extrabold text-[#371b26]'>-</span> Explore. Challenge. Succeed. <span className='font-extrabold text-[#371b26]'>-</span>
       </h2>   
